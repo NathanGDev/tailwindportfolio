@@ -12,18 +12,8 @@ function ContactPage() {
       />
       <section>
         <form className="mx-auto md:w-1/2">
-          <p className="mb-8 leading-loose">
-            Here is an example of a form built using the official Tailwind CSS
-            Custom Forms plugin.{` `}
-            <a
-              className="font-bold text-gray-700 no-underline"
-              href="https://github.com/tailwindcss/custom-forms"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Read the docs
-            </a>
-            .
+          <p className="mb-8 leading-loose text-md">
+            If you would like to get in contact with me. Please use the below.
           </p>
 
           <label
@@ -36,7 +26,7 @@ function ContactPage() {
           <input
             className="w-full mb-6 form-input"
             id="first-name"
-            placeholder="Bill"
+            placeholder="Nathan"
             type="text"
           />
 
@@ -50,7 +40,7 @@ function ContactPage() {
           <input
             className="w-full mb-6 form-input"
             id="last-name"
-            placeholder="Murray"
+            placeholder="Garrett"
             type="text"
           />
 
